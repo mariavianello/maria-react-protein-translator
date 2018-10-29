@@ -1,0 +1,103 @@
+body {
+  background-color: #f27a1d;
+  /* background-color: #f27a1d; */
+  background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");
+}
+
+.container {
+  background-color: rgb(20, 10,0, 0.5);
+  border-radius: 5px;
+  padding: 15px;
+  margin: 15px;
+}
+
+h1, h2, h3, p, table, button {
+  color: white;
+  font-family: 'Changa', sans-serif;
+}
+
+h1, h2, h3, table {
+  text-align: center;
+}
+
+h1, h2 {
+  color: #AA8CD7;
+  text-shadow: 0.5px 0.5px black;
+}
+
+table {
+  margin: auto;
+}
+
+th {
+  font-size: 125%;
+}
+
+.bold {
+  font-size: 125%;
+}
+
+#sequenceTranslator {
+  margin: auto;
+}
+
+button {
+  background-color: #AA8CD7;
+  border-radius: 5px;
+  height: 35px;
+  width: 15%;
+  border: 0.5px solid white;
+  letter-spacing: 1px;
+  margin: 2px 1px;
+}
+
+.mainButton {
+  border: 1.5px solid #ff571a;
+}
+
+input {
+  display: inline;
+  border-radius: 5px;
+  height: 30px;
+  border: 2px solid #cc99ff;
+  text-align: center;
+  font-family: 'Changa', sans-serif;
+  width: 80%;
+  letter-spacing: 1px;
+}
+
+.buttonInput {
+  background-color: #ededed;
+  color: #AA8CD7;
+  text-align: center;
+  border: 2px solid #cc99ff;
+  border-radius: 5px;
+  height: 55px;
+}
+
+.output {
+  background-color: #ededed;
+  border-radius: 5px;
+  height: 55px;
+  border: 2px solid #ff571a;
+}
+
+.OutputPolypeptide {
+  color: #655182;
+  text-align: center;
+}
+
+.ButtonMatrix {
+  margin: auto;
+}
+
+.purple {
+  border-top: 2px dotted #ff571a;
+  margin-top: 25px;
+}
+
+.center {
+  margin: 15px auto;
+  display: block;
+  text-align: center;
+}
